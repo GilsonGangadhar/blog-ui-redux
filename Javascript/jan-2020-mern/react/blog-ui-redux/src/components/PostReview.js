@@ -14,7 +14,7 @@ class PostReview extends React.Component {
 
     render(){
        let post = this.props.userPosts
-       //console.log(post, "gokul")
+       //console.log(post, "gilson")
         let user = this.props.users.find(user => user.id == post.userId)
         //console.log(user, "gilson")
         let userComments = this.props.comments.filter(comment => comment.postId == post.id)
